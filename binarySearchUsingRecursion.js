@@ -12,9 +12,6 @@ function binarySearch(arr,value,start,end){
     if(arr[mid]<value){
         return binarySearch(arr,value,mid+1,end);
     }
-    
-    
-
 }
 var arr=[1,2,5,10,12,15,18];
 var value=prompt("Enter a target value in arr ["+arr+"]");
